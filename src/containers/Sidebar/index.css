@@ -1,0 +1,59 @@
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 15%;
+    background: linear-gradient(-135deg, rgba(113, 141, 159, 0.8) 0%,rgba(43, 69, 89,1) 100%);
+}
+
+.sidebar h1{
+    margin: 30px 0 0;
+    height: 130px;
+    text-indent: -9999em;
+    background: url(../../assets/images/logo.png) no-repeat 50% 50%;
+}
+.sidebar h1 a{
+    display: block;
+    height: 100%;
+}
+
+.copyright{
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+    width: 100%;
+    color: #8a8a8a;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.copyright p{
+    margin: 0;
+}
+
+.copyright>div{
+    margin: 10px auto;
+    width: 150px;
+    font-size: 14px;
+    line-height: 28px;
+    border: 1px solid #626f7a;
+    border-radius: 3px;
+}
+
+.copyright>div p{
+    padding-left: 10px;
+    color: #ccc;
+    text-align: left;
+}
+
+.copyright>div p:first-child{
+    border-bottom: 1px solid #626f7a;
+}
+
+.copyright>a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+}

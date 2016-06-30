@@ -14,7 +14,7 @@ module.exports = {
             },
             {
                 test: /\.css$/,
-                loader: 'style!css'
+                loader: 'style!css?modules&localIdentName=[hash:base64:8]'
             },
             {
                 test: /\.(jpg|png|gif)$/,

@@ -1,0 +1,95 @@
+.nav{
+    margin: 58px auto 0;
+    padding: 0;
+    width: 150px;
+    list-style: none;
+}
+
+.nav li{
+    height: 65px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 65px;
+}
+
+.nav a{
+    position: relative;
+    display: block;
+    height: 100%;
+    padding-left: 42px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.nav a i{
+    position: absolute;
+    left: 0;
+    top: 16px;
+    width: 32px;
+    height: 32px;
+    background-image: url(../../assets/images/menu_ico.png);
+    background-repeat: no-repeat;
+    background-color: #2d2d2d;
+    border-radius: 50%;
+    -webkit-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+    -moz-transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+    transition: background 0.3s cubic-bezier(.17, .67, .88, 1.25), color 0.2s linear;
+}
+
+.nav li .active i{
+    background-color: #ff5f03;
+    background-position-y: -32px;
+}
+
+.nav li:hover i{
+    background-color: #ff5f03;
+    background-position-y: -32px;
+}
+
+.nav .home i{
+    background-position: 0 0;
+}
+
+.nav .home:hover i{
+    background-position: 0 -32px;
+}
+
+.nav .company i{
+    background-position: -32px 0;
+}
+
+.nav .company:hover i{
+    background-position: -32px -32px;
+}
+
+.nav .news i{
+    background-position: -128px 0;
+}
+
+.nav .news:hover i{
+    background-position: -128px -32px;
+}
+
+.nav .join i{
+    background-position: -64px 0;
+}
+
+.nav .join:hover i{
+    background-position: -64px -32px;
+}
+
+.nav .contact i{
+    background-position: -96px 0;
+}
+
+.nav .contact:hover i{
+    background-position: -96px -32px;
+}
+
+.nav .notice i{
+    background-position: -158px 0;
+}
+
+.nav .notice:hover i{
+    background-position: -158px -32px;
+}

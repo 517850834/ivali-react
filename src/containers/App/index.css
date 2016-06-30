@@ -1,0 +1,7 @@
+.container{
+    position: relative;
+    height: 100%;
+    min-width: 1200px;
+    min-height: 760px;
+    background: url(../../assets/images/bg.jpg) no-repeat 50% 50% #8dc5d4;
+}
